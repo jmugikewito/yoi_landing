@@ -201,7 +201,7 @@ strong, b{
     color: #7202bb
 }
 .gradient-bg{
-    background-image: linear-gradient(to left, #3264f5, #4a54e8, #5b42db, #682ccb, #7202bb) !important;
+    background-image: linear-gradient(to left, #FF00FF, #FFC0CB);!important;
 }
 
 .white-bg{
@@ -437,7 +437,7 @@ select.form-control.has-value{
 }
 
 .bg-transparent.affix {
-    background-image: linear-gradient(to left, #3264f5, #4a54e8, #5b42db, #682ccb, #7202bb) !important;
+    background-image: linear-gradient(to left, #FF00FF, #FFC0CB) !important;
 }
 
 .navbar-toggler{
@@ -617,7 +617,7 @@ select.form-control.has-value{
 
 @media (min-width: 320px) and (max-width: 992px) {
     .navbar {
-        background-image: linear-gradient(to left, #3264f5, #305be4, #3b4fe2, #4740de, #7202bb) !important;
+        background-image: linear-gradient(to left, #FF00FF, #FFC0CB) !important;
         padding: .85rem 1rem !important;
     }
     .menu li{
@@ -776,7 +776,7 @@ select.form-control.has-value{
     right: 0;
     bottom: 0;
     background: #3264f5;
-    background: linear-gradient(90deg,#3264f5,#7202bb);
+    background-image: linear-gradient(to left, #FF00FF, #FFC0CB);
     overflow: hidden;
     clip-path: polygon(0 0,100% 0,100% 50%,0 100%);
 }
@@ -838,7 +838,7 @@ select.form-control.has-value{
 .gradient-overlay:before{
     position: absolute;
     content: '';
-    background-image: linear-gradient(to left, rgba(50, 100, 245, 0.90), rgba(74, 84, 232, 0.88), rgba(91, 66, 219, 0.85), rgba(104, 44, 203, 0.88), rgba(114, 2, 187, 0.90));
+    background-image: linear-gradient(to left, #FF00FF, #FFC0CB);
     width: 100%;
     height: 100%;
     top: 0;
@@ -1351,7 +1351,7 @@ select.form-control.has-value{
 }
 
 .work-process-divider {
-    background-image: linear-gradient(90deg, #73778c, #73778c 40%, transparent 40%, transparent 100%);
+    background-image: linear-gradient(to left, #FF00FF, #FFC0CB);
 }
 
 .single-work-process .work-process-divider{
@@ -1359,7 +1359,7 @@ select.form-control.has-value{
     top: 40px;
     width: calc(100% - 130px);
     height: 1px;
-    background-image: linear-gradient(90deg, #73778C, #73778C 40%, transparent 40%, transparent 100%);
+    background-image: linear-gradient(to left, #FF00FF, #FFC0CB);
     background-size: 12px 1px;
 }
 .single-work-process .work-process-divider:after {
@@ -1475,7 +1475,7 @@ select.form-control.has-value{
     position: absolute;
     width: 100%;
     height: 55px;
-    background: linear-gradient(to right,white,rgba(255,255,255,0) 10%,rgba(255,255,255,0) 90%,white 95%);
+    background-image: linear-gradient(to left, #FF00FF, #FFC0CB);
     z-index: 100;
     left: 0;
     right: 0;
